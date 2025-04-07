@@ -1,0 +1,50 @@
+﻿.buttonDesign {
+    background-color: #767676;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px;
+    margin-left: 4px;
+    margin-bottom: 13px;
+    border: none;
+}
+
+.pageNotFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNotFoundImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.pageNotFoundHeading2 {
+    margin-top: 20px;
+}
+
+
+.pageNotFoundButton {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px 20px; /* Padding for height and width */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block to allow padding */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+    .pageNotFoundButton:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    .pageNotFoundButton:active {
+        transform: scale(0.95); /* Slightly shrink on click */
+    }
